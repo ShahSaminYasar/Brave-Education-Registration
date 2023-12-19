@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  transition: all 0.2s;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+      188deg,
+      rgba(3, 8, 50, 0.95) 1.07%,
+      rgba(87, 44, 210, 0.96) 117.56%
+    ),
+    url(./assets/bg-graphics.jpg);
+  /* background: #312897; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 0px 15px;
+}
+
+/* Steps */
+.step::before {
+  background-color: #9b9ba6 !important;
+  height: 5px !important;
+}
+
+.step::after {
+  background-color: #9b9ba6 !important;
+  color: #1b1b1b71 !important;
+}
+
+.step-primary::after,
+.step-primary::before {
+  background-color: #4338ca !important;
+  color: white !important;
+}
+
+/* React Calendar */
+/* .react-calendar__navigation {
+  background: #ffffff !important;
+} */
+
+.react-calendar {
+  border: 2px solid #4338ca !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+.react-calendar__tile {
+  background: #dfdfdf27 !important;
+  color: rgb(121, 121, 121) !important;
+}
+
+.react-calendar__tile:disabled {
+  background: #9490c044 !important;
+  color: rgb(187, 187, 187) !important;
+}
+
+.react-calendar__tile--active {
+  background: #4438ca !important;
+  color: white !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: red !important;
+}
+
+/* Form Elements */
+.radio:checked {
+  box-shadow: 0px 0px 0px 4px #4338ca inset !important;
+  background-color: white !important;
+  border: 3px solid #382fae !important;
+}
