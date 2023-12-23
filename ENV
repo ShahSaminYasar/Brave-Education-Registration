@@ -1,14 +1,14 @@
 DB_USER=braveEducation
 DB_PASS=braveEducationAdmin2023
 
-bkash_username = sandboxTokenizedUser02
-bkash_password = sandboxTokenizedUser02@12345
-bkash_api_key = 4f6o0cjiki2rfm34kfdadl1eqq
-bkash_secret_key = 2is7hdktrekvrbljjh44ll3d9l1dtjo4pasmjvs5vl5qr3fug4b
+bkash_username = 01937805552
+bkash_password = +Kf@Cl=t0tS
+bkash_api_key = lptcpvh9XyYFG8U2KvqG0hz6tc
+bkash_secret_key = rnLTQhrLOcsUd8kgyGIGDA4NRInwzhJqqP2xTpiJ6lwZcFlef079
 
-bkash_grant_token_url = https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/token/grant
-bkash_create_payment_url =  https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/create
-bkash_execute_payment_url = https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/execute
-bkash_refund_transaction_url = https://tokenized.sandbox.bka.sh/v1.2.0-beta/tokenized/checkout/payment/refund
+bkash_grant_token_url = https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/token/grant
+bkash_create_payment_url =  https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/create
+bkash_execute_payment_url = https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/execute
+bkash_refund_transaction_url = https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/payment/refund
 
 VITE_IMGBB_KEY=9a162bf047b464b9baa9b80b67a44bb2
