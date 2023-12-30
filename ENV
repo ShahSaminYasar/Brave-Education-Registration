@@ -1,5 +1,11 @@
-DB_USER=braveEducation
-DB_PASS=braveEducationAdmin2023
+VITE_IMGBB_KEY=9a162bf047b464b9baa9b80b67a44bb2
+
+
+DB_USER=braveeducation
+DB_PASS=k0OZ2QOtFNILP4lg
+ADMIN_USER=admin@brave
+ADMIN_PASS=Brave@1997
+ADMIN_TOKEN=23cd5d5897b1a66bdf5664dddb3a466796c9b3e31f37884d
 
 bkash_username = 01937805552
 bkash_password = +Kf@Cl=t0tS
@@ -10,5 +16,3 @@ bkash_grant_token_url = https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/check
 bkash_create_payment_url =  https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/create
 bkash_execute_payment_url = https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/execute
 bkash_refund_transaction_url = https://tokenized.pay.bka.sh/v1.2.0-beta/tokenized/checkout/payment/refund
-
-VITE_IMGBB_KEY=9a162bf047b464b9baa9b80b67a44bb2
